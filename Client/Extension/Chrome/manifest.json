@@ -1,0 +1,39 @@
+{
+    "manifest_version": 2,
+    "name": "AntiHass",
+    "version": "0.0.1",
+    "author": "Vienna Data Science Cafe - NLP Team",
+
+    "persmissions": [
+        "activeTab",
+        "webNavigation"
+    ],
+
+    "default_locale": "de",
+    "description": "Hides hate speech in web pages while surfing",
+    "icons": {
+        "default_icon": {
+            "16": "",
+            "32": "",
+            "64": "",
+            "128": ""
+        }
+    },
+
+    "page_action": {
+        "default_icon": {
+
+        },
+        "default_title": "",
+        "default_popup": "popup.html"
+    },
+
+    "background": {
+        "scripts": "eventPage.js",
+        "persistent": false
+    },
+
+    "page_action": {
+        "scripts": "content.js"
+    }
+}
