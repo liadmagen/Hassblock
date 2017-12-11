@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "./Extension/Chrome/built",
+        "allowJs": true,
+        "target": "es5"
+    },
+    "include": [
+        "./Extension/Chrome/src/**/*"
+	],
+	"types": [
+        //(various types, e.g. jquery, core-js),
+        "chrome"
+    ]
+}

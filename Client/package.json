@@ -1,0 +1,12 @@
+{
+  "name": "Hassblock",
+  "version": "0.0.1",
+  "description": "Hate-speech blocker",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chrome": "0.0.55"
+  },
+  "dependencies": {
+    "popper.js": "^1.12.9"
+  }
+}
